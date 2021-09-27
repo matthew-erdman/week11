@@ -26,10 +26,9 @@ def getInteger():
 def sillyText(repeatStr, repeatNum):
     """
     Purpose: Recursively repeats each character in a string a certain number of times.
-    Parameters: repeatStr, the string which will have its characters repeated and
-    repeatNum, the non-negative integer which will determine how many times the
-    characters are repeated.
-    Return Value: sillyString, the final string with repeated characters.
+    Parameters: The string which will have its characters repeated and the
+    non-negative integer which will determine how many times the characters are repeated.
+    Return Value: The final string with repeated characters.
     """
     # reached first (final) character of string, return back up
     if len(repeatStr) == 1:

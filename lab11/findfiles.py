@@ -29,8 +29,8 @@ def getDir():
 def searchFile(text, pattern):
     """
     Purpose: Recursively search a text string for an instance of a pattern.
-    Parameters: text, the string which will be searched and pattern, the pattern
-    which will be searched for in the string.
+    Parameters: The string which will be searched and the pattern which will be
+    searched for in the string.
     Return Value: Boolean value indicating if the pattern was found.
     """
     # reached end of string, pattern not present
@@ -47,8 +47,8 @@ def searchFile(text, pattern):
 def searchDir(userDir, pattern):
     """
     Purpose: Recursively search directories for instances of a pattern in filenames.
-    Parameters: userDir, the path to the directory where the search will begin and
-    patter, the pattern which will be searched for in the directory.
+    Parameters: "userDir", the path to the directory where the search will begin and
+    "pattern", the pattern which will be searched for in the directory.
     Return Value: None.
     """
     contents = listdir(userDir)

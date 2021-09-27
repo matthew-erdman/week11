@@ -22,10 +22,10 @@ def getChar():
 
 def cleanString(rawStr, cleanChar):
     """
-    Purpose: Recursively removes all occurrences of a character from a string.
-    Parameters: rawStr, the string which will have its characters searched/removed and
-    cleanChar, the charcter which will be removed from the string.
-    Return Value: cleanedString, the final string which may have removed characters.
+    Purpose: Recursively removes all instances of a character from a string.
+    Parameters: The string which will have its characters searched/removed and
+    the charcter which will be removed from the string.
+    Return Value: The final string with selected characters removed.
     """
     # reached first (final) charcter, return back up
     if len(rawStr) == 1:
